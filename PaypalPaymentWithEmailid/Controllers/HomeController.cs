@@ -21,7 +21,7 @@ namespace PaypalPaymentWithEmailid.Controllers
 
             string returnURL = "";
 
-            returnURL += "https://www.paypal.com/xclick/business=shuklasatyam90@hotmail.com";
+            returnURL += "https://www.paypal.com/xclick/business=shuklasatyam90@hotmail.com"; 
 
             returnURL += "&item_name=" + "Abc";
 
@@ -36,7 +36,7 @@ namespace PaypalPaymentWithEmailid.Controllers
 
             returnURL += "&amount=" + price;
 
-            returnURL += "&currency=USD";
+            returnURL += "&currency_code=INR";
 
             returnURL += "&return=https://localhost:44308/Home/SuccessView";
 
