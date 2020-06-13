@@ -21,7 +21,8 @@ namespace PaypalPaymentWithEmailid.Controllers
 
             string returnURL = "";
 
-            returnURL += "https://www.paypal.com/xclick/business=shuklasatyam90@hotmail.com"; 
+            //returnURL += "https://www.paypal.com/xclick/business=shuklasatyam90@hotmail.com"; 
+            returnURL += "https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_xclick&business=shuklasatyam90@hotmail.com";
 
             returnURL += "&item_name=" + "Abc";
 
